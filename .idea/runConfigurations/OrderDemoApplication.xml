@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OrderDemoApplication" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.training.orderdemo.OrderDemoApplication" />
+    <module name="springboot-tomcat-order-demo" />
+    <option name="PROGRAM_PARAMETERS" value="" />
+    <option name="VM_PARAMETERS" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

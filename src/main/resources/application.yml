@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  error:
+    include-message: never
+    include-binding-errors: never
+    include-stacktrace: never
+
+spring:
+  application:
+    name: springboot-tomcat-order-demo
+  mvc:
+    log-request-details: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,mappings
+
+logging:
+  level:
+    root: INFO
+    com.training.orderdemo: DEBUG
+    org.springframework.web: INFO
