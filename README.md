@@ -75,11 +75,3 @@ curl -i -X POST "http://127.0.0.1:8080/api/order/create" \
   -H "Content-Length: 6" \
   --data-binary "{\"orderId\":1003}"
 ```
-
-## 你应该重点学习
-
-- Spring Boot 为什么默认使用内嵌 Tomcat
-- `@RestController`、`@PostMapping`、`@RequestBody` 的执行链路
-- HTTP 请求头 `Content-Length` 的作用
-- 请求没有进入 Controller 时，应该从容器、过滤器、拦截器、参数解析、异常处理逐层排查
-- 测试开发如何把一个 400 问题讲清楚：现象、复现、定位、原因、修复建议、沉淀文档
